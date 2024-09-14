@@ -1,0 +1,50 @@
+body {
+  font-family: outfit;
+  font-size: 15px;
+  background-color: hsl(212, 45%, 82%);
+  /*hsl(216, 15%, 48%) hsl(218, 44%, 22%) hsl(212, 45%, 89%)*/
+}
+
+.middle-box {
+  width: 16%;
+  border-radius: 14px;
+  border: none;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 500px) {
+  .middle-box {
+    width: 90%
+  }
+}
+
+.qr-code {
+  padding: 5%;
+  padding-bottom: 0px;
+}
+
+.image-qr-code {
+  border-radius: 8px;
+  object-fit: contain;
+  width: 100%;
+}
+
+.qr-code-description {
+  padding: 8%;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.bold-text {
+  font-weight: 700;
+  font-size: 19px;
+  letter-spacing: 1px;
+}
+
+.text {
+  color: gray;
+}
